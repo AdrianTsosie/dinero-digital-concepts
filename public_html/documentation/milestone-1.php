@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div>
-			<img src="DDC Logo.png" alt="DDC Logo">
+			<img src="DDC_Logo.png" width="450" height="450" alt="DDC Logo">
 		</div>
 
 		<h2>Purpose:</h2>
@@ -22,14 +22,17 @@
 			for their companies. To be a part of the development and change in a company's brand.
 		</p>
 
+		<div>
+			<img src="Culton_Holt.jpg" width="400" height="300" alt="Culton Holt">
+		</div>
+
 		<h2>Persona</h2>
-		<p>
 			<ul>
-				<li><strong>Name:</strong></li>Colton Hoy
-				<li><strong>Age:</strong></li>27
-				<li><strong>Lives:</strong></li>Santa Fe, New Mexico
-				<li><strong>Job:</strong></li>Owner of a promotion company
-				<li><strong>Technology Used:</strong></li>
+				<li><strong>Name:</strong>Colton Hoy</li>
+				<li><strong>Age:</strong>32</li>
+				<li><strong>Lives:</strong>Santa Fe, New Mexico</li>
+				<li><strong>Job:</strong>Owner of a promotion company</li>
+				<li><strong>Technology Used:</strong>
 					<ul>
 						<li>2014 MacBool Pro 15</li>
 						<li>macOS High Sierra</li>
@@ -37,24 +40,26 @@
 						<li>Xfinity Internet</li>
 						<li>Sprint Unlimited plan.</li>
 					</ul>
-				<li><strong>Behaviors and Attitudes:</strong></li>
+				</li>
+				<li><strong>Behaviors and Attitudes:</strong>
 					<ul>
 						<li>Has been to a few other design companies.</li>
 						<li>Has a style of art work he wants.</li>
 					</ul>
-				<li><strong>Site Usage:</strong></li>Looking through design portfolio.
-				<li><strong>Goal:</strong></li>
+				</li>
+				<li><strong>Site Usage:</strong>Looking through design portfolio.</li>
+				<li><strong>Goal:</strong>
 					<ul>
 						<li>To find a company that can help him to brand and develop his prodcution company</li>
 						<li>Wants to have a great open communication with firm and designers</li>
 					</ul>
+				</li>
 				<li><strong>Frustrations:</strong>
 						<ul>
-							<li>His been through many company web pages with lack of communication</strong></li>
+							<li>His been through many company web pages with lack of communication</li>
 							<li>Tried Fiver and wasn't happy with results.</li>
 						</ul>
 			</ul>
-		</p>
 	</body>
 
 </html>
