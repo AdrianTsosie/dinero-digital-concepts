@@ -9,6 +9,11 @@ html, body {
     background-position: center;
 }
 
+.DDC-Banner {
+    display: block;
+    max-width: 200%;
+    height: auto;
+}
 #myBtn {
     display: none;
     position: fixed;
@@ -17,7 +22,7 @@ html, body {
     z-index: 99;
     border: none;
     outline: none;
-    background: #007bff;
+    background: #2c8069;
     color: white;
     cursor: pointer;
     padding: 15px;
