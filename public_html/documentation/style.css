@@ -7,13 +7,9 @@ html, body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    height: 100%;}
 }
 
-.DDC-Banner {
-    display: block;
-    max-width: 200%;
-    height: auto;
-}
 #myBtn {
     display: none;
     position: fixed;
@@ -28,17 +24,6 @@ html, body {
     padding: 15px;
     border-radius: 6px;
 }
-
 #myBtn:hover {
     background-color: #555;
-}
-
-.your-centered-div {
-    width: 560px;
-    height: 315px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
 }
