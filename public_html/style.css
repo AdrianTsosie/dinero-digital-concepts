@@ -27,11 +27,3 @@ html, body {
 #myBtn:hover {
     background-color: #555;
 }
-
-@font-face {
-    font-family: "Gotham";
-    src: local("Gotham book"),
-    local("Gotham Medium"),
-    local("Gotham Bold")
-    url("Fonts/Gotham Book.otf") format("opentype");
-}
