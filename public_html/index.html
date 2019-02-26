@@ -13,9 +13,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <script src="js/form-validate.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <title>Dinero Digital Concepts</title>
 </head>
 <body>
@@ -344,7 +350,7 @@
         <section class="m-4 text-white">
             <div data-aos="fade-right">
                 <p class="text-center w-responsive mx-auto mb-5 text-white">Do you have any questions? Do you need further information?
-                    Please feel free to send a message and we will get back to your as sson as possible..</p>
+                    Please feel free to send a message and we will get back to your as soon as possible..</p>
                 <div class="row">
                     <div class="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -379,6 +385,7 @@
                                 </div>
                             </div>
                         </form>
+                        <div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
                         <div class="text-center text-md-left">
                             <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                         </div>
@@ -400,6 +407,11 @@
                 </div>
             </div>
         </section>
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="output-area"></div>
+            </div>
+        </div>
     </section>
     <section id="Footer">
         <div class="container-fluid animated fadeInUp bg-dark mt-5 py-2 text-white-50">
