@@ -49,13 +49,13 @@
         <h1>Wire Frames</h1>
             <h2>Mobile Design</h2>
                 <div>
-                    <img src="DDC Phone.png" width="70%" height="70%" alt="DDC Phone">
+                    <img src="img/DDC Phone.png" width="70%" height="70%" alt="DDC Phone">
                 </div>
 
 
             <h2>Desktop/Laptop Design</h2>
                 <div>
-                    <img src="DDC Webpage.jpg" width="50%" height="50%" alt="DDC Desktop/Laptop">
+                    <img src="img/DDC Webpage.jpg" width="50%" height="50%" alt="DDC Desktop/Laptop">
                 </div>
         <script>
             // When the user scrolls down 20px from the top of the document, show the button

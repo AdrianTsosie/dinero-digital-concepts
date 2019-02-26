@@ -1,5 +1,5 @@
 html, body {
-    background-image: url("Background.jpg");
+    background-image: url("img/Background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,4 +26,12 @@ html, body {
 }
 #myBtn:hover {
     background-color: #555;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: local("Gotham book"),
+    local("Gotham Medium"),
+    local("Gotham Bold")
+    url("Fonts/Gotham Book.otf") format("opentype");
 }

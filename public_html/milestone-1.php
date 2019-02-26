@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div>
-			<img src="DDC_Logo.png" width="450" height="450" alt="DDC Logo">
+			<img src="DDC.png" width="450" height="450" alt="DDC Logo">
 		</div>
 
 		<h2>Purpose:</h2>
@@ -23,7 +23,7 @@
 		</p>
 
 		<div>
-			<img src="Culton_Holt.jpg" width="400" height="300" alt="Culton Holt">
+			<img src="../img/Culton_Holt.jpg" width="400" height="300" alt="Culton Holt">
 		</div>
 
 		<h2>Persona</h2>
