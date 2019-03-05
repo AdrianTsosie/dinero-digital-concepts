@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div>
-			<img src="DDC.png" width="450" height="450" alt="DDC Logo">
+			<img src="img/ddc.png" width="450" height="450" alt="DDC Logo">
 		</div>
 
 		<h2>Purpose:</h2>

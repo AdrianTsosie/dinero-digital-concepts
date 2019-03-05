@@ -1,5 +1,6 @@
 html, body {
-    background-image: url("img/Background.jpg");
+    font-family: 'Gentium Book Basic', serif;
+    background-image: url("img/background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,6 +9,7 @@ html, body {
     background-attachment: fixed;
     background-position: center;
     height: 100%;
+
 }
 
 #myBtn {
