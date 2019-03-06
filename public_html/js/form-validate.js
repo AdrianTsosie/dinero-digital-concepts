@@ -18,7 +18,7 @@ $(document).ready(function() {
             // setup handling of form errors
             debug: true,
             errorClass: "alert alert-danger",
-            errorLabelContainer: "#output-area",
+            errorLabelContainer: "#output-araea",
             errorElement: "div",
             // rules here define what is good or bad input
             // each rule starts with the form input element's NAME attribute
@@ -32,7 +32,7 @@ $(document).ready(function() {
                 },
                 subject: {
                     required: false,
-                    maxLength: 64
+                    maxlength: 64
                 },
                 message: {
                     required: true,
@@ -72,7 +72,7 @@ $(document).ready(function() {
                         // write the server's reply to the output area
                         $("#output-area").html(ajaxOutput);
 
-                        / reset the form if it was successful
+                        //reset the form if it was successful
                         if($(".alert-success").length >= 1) {
                             $("#contact-form")[0].reset();
                         }
