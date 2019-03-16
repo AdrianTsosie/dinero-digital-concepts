@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Gentium Book Basic', serif;
-    background-image: url("img/background.jpg");
+    background-image: url("../../img/background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
